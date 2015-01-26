@@ -8,7 +8,7 @@ if(have_posts()) :
 	<article class="post page">
 		<?php 
 
-		if(has_chidren() OR $post->post_parend > 0){?>
+		if( has_chidren() OR $post->post_parent > 0){ ?>
 
 		<nav class="site-nav children-links clearfix">
 
