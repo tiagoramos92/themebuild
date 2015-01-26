@@ -18,6 +18,11 @@
 			
 			<h5><?php bloginfo('description'); ?></h5>
 
+			<?php if(is_page('portfolio')) { ?>
+				<p>Thank you for viewing our workk</p>
+
+				<?php } ?> 
+
 			<nav class="site-nav">
 				<?php 
 				$args = array(
