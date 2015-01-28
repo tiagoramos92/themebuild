@@ -28,12 +28,15 @@ if(have_posts()) :
 
 			?> 
 		</p>
+		
+
+		<?php the_post_thumbnail('small-thumbnail'); ?>
 
 		<?php if($post->post_excerpt){ ?>
 
 			<p>
 				<?php echo get_the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>"> Read More +</a>
+				<a href="<?php the_permalink(); ?>"> Read Mo+</a>
 			</p>
 		<?php 
 		}else{

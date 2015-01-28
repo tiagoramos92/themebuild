@@ -178,3 +178,8 @@ p.post-info a:link,
 p.post-info a:visited{
 	color:#999;
 }
+/*Images Styles */
+img{
+	max-width: 100%;
+	height: auto;
+}
